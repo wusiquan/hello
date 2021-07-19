@@ -12,6 +12,10 @@ pipeline {
       }
       steps {
         echo "Hello, ${PERSON}, nice to meet you."
+
+        script {
+          buildDescription '<img src="https://himg.bdimg.com/sys/portraitn/item/31317371d0a1d3eafb58"></img>'
+        }
       }
     }
   }
